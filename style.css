@@ -1,0 +1,199 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+/*
+Písmo pro běžný text:
+font-family: 'Open Sans', sans-serif;
+font-size: 15px+
+line-height: 1.5;
+
+Písmo pro menší nadpisy (kromě velkého h1):
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+*/
+
+/* -------------------------------------------------- */
+.body{
+    margin: 0;
+    padding: 0;
+
+}
+/*------------------uvod-------------------*/
+
+.logo {
+    width: 40%;
+}
+.hlavicka{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items:baseline;
+    margin: 0 15% 0 15%
+
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.hlavicka-vlevo{
+    display: flex;
+}
+.hlavicka-vpravo{
+    display: flex;
+}
+.menu li {
+   display: inline-block;
+  }
+  
+.menu a {
+    display: block;
+    padding: 8px;
+    color: #959595;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+.menu-tlacitka{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+    .tlacitko-primarni{
+        display: block;
+        background-color: #3498db;
+        border-radius: 10px;
+        padding: 12px 18px;
+        color:white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        margin: -2% 2% 2% 2%
+}
+    .tlacitko-sekundarni{
+        flex-basis: 250px;
+        display: block;
+        border-radius: 10px;
+        padding: 12px 18px;
+        color:black;
+        border:1px solid black;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        margin: -2% 2% 2% 2%
+    }
+  /*--------------baner----------------------*/
+.wrap 
+  .banner{
+    display: flex;
+    margin: 0% 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    min-height: 600px
+
+}
+    .banner-text h1{
+        font-size: 44px;
+        font-weight: 300;
+        flex-basis: 420px;
+        line-height: 1.2;
+    }
+    .upoutavka{
+        font-size: 18px;
+        color:#a5a5a5;
+       
+    }
+    .tlacitko-velke{
+        display: block;
+        background-color: #3498db;
+        border-radius: 10px;
+        padding: 20px 40px;
+        width: 250px;
+        color:white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .minitext{
+        font-size: 13px;
+        font-family: 'Rubik', sans-serif ;
+    }
+
+
+  /*--------------sekce-bila------------------*/
+.vlastnosti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 15% 0 15%
+}
+.vlastnost{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    flex-basis: 48%;
+    font-family:  'Open Sans', sans-serif;
+    padding: 30px;
+}
+.ikonka{
+    width: 50px;
+}
+.vlastnost-text{
+    margin-left: 30px
+}
+.vlastnost-text a{
+    font-size: 13px;
+}
+.vlastnost h2{
+    margin-top:0;
+}
+.ikona-kufrik{
+    margin: 30px 30px 30px 0;
+}
+.ikona-srdce{
+    margin: 0px 30px 30px 0;
+}
+.ikona-slunce,
+.ikona-zvuk{
+    margin: 30px 0 30px 0;
+}
+.ikona-zvuk{
+    margin: 0px 0 30px 0;
+}
+
+
+  /*---------------sekce-cerna------------------*/
+.sekce-cerna{
+    margin: 0;
+    background-color:#252525 ;
+    color: #959595;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.paticka{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right:15%;
+    align-items: center;
+}
+.wrap{
+    margin:0;   
+    padding:0;
+}
+.paticka-menu li {
+    float: right;
+  }
+  
+.paticka-menu a {
+    display: block;
+    padding: 8px;
+    font-family: open;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+    
+}
